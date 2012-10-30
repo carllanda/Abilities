@@ -26,6 +26,8 @@ public class ABDisguise extends JavaPlugin{
 	
 	public ABDisguise(Main plugin) {
 		
+		this.plugin = plugin;
+		
 		dcapi = DisguiseCraft.getAPI();
 	}
 	
